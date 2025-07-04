@@ -158,3 +158,28 @@ a:hover {
     font-size: 1.8rem;
   }
 }
+
+.resume, .skills {
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.skills ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  color: var(--text-light);
+}
+
+body.dark .skills ul {
+  color: var(--text-dark);
+}
+
+
+.demo-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+
