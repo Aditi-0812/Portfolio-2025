@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditi Bharti | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <button class="toggle-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <img src="cv passport.jpg" alt="Aditi Bharti" class="profile-pic" />
+    <h1>Aditi Bharti</h1>
+    <p>Aspiring Software Engineer | Creative Coder | Tech Enthusiast</p>
+  </header>
+
+  <section class="about" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Hello! I’m Aditi Bharti, a second-year BTech student. I am passionate about learning and growing my skills every day. I consider myself an ambivert—balancing a friendly, approachable nature with a focus on responsibility and authenticity. I enjoy taking on leadership roles, guiding teams toward success while fostering collaboration. My goal is to continue developing both my technical expertise and interpersonal skills to make meaningful contributions in every project I undertake. Welcome to my portfolio.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2 class="section-title" data-aos="fade-up">Projects</h2>
+
+    <div class="project" data-aos="fade-up">
+      <h3>🌐 Rural Opportunity Net (Hackathon Project)</h3>
+      <p>A project from my 2nd semester designed to bridge the education gap in rural areas. It provides access to mentorship, study materials, and donation support.</p>
+      <a class="btn" href="https://aditi-0812.github.io/Hackathon-website/index.html" target="_blank">🔗 Live Website</a>
+      <a class="btn" href="https://github.com/Aditi-0812/Hackathon-website" target="_blank">💾 GitHub Repo</a>
+    </div>
+
+    <div class="project" data-aos="fade-up">
+      <h3>☁️ AWS Feedback Management System</h3>
+      <p>Deployed using AWS services like S3 (to store user feedback), EC2 (for hosting backend), CloudWatch (for monitoring), and IAM roles. Built on AWS sandbox with basic infrastructure and deployment best practices.</p>
+      <a class="btn" href="https://www.linkedin.com/posts/aditi-bharti-0174a2283_aws-cloudcomputing-s3-activity-7319736998720589824-psKp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETzF5MBl4GebxgzQ_dh1Edp5pdUi_Wsgc4" target="_blank">💾 Linkedin Post</a>
+    </div>
+
+    <div class="project" data-aos="fade-up">
+      <h3>💻 Java Pacman Game</h3>
+      <p>A fun recreation of the classic Pacman game using Java and 2D graphics.</p>
+      <a class="btn" href="https://github.com/Aditi-0812/PacMan-Peroject" target="_blank">💾 GitHub Repo</a>
+    </div>
+
+    <div class="project" data-aos="fade-up">
+      <h3>🧮 Java Calculator</h3>
+      <p>A GUI-based calculator using Java Swing for basic mathematical operations.</p>
+      <a class="btn" href="https://github.com/Aditi-0812/Cute-Java-Calculator" target="_blank">💾 GitHub Repo</a>
+    </div>
+
+    <div class="project" data-aos="fade-up">
+      <h3>🌟 Landing Page - Daily Motivation</h3>
+      <p>A cheerful landing page that displays motivational quotes with a "Next" button.</p>
+      <a class="btn" href="https://aditi-0812.github.io/Quotes-of-the-day/" target="_blank">💾 GitHub Repo</a>
+    </div>
+  </section>
+
+  <section class="contact" data-aos="fade-up">
+    <h2 class="section-title">Contact</h2>
+    <p>📧 aditibharti2001@gmail.com</p>
+    <p>📍 India | Open to remote & hybrid opportunities</p>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/aditi-bharti-0174a2283/">LinkedIn</a> or <a href="https://github.com/Aditi-0812">GitHub</a>.</p>
+  </section>
+
+  <footer>
+    © 2025 Aditi Bharti • Built with love and ambition 💖
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
+</body>
+</html>
